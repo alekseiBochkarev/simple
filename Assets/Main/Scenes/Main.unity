@@ -22023,22 +22023,22 @@ MonoBehaviour:
   - {fileID: 21300092, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   - {fileID: 21300094, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   dressesIcons:
-  - {fileID: 21300030, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300032, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300034, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300036, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300038, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300040, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300042, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300044, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300046, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300048, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300050, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300052, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300054, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300056, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300058, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
-  - {fileID: 21300060, guid: e669ed1a13216ce47bf397df8fe4fd15, type: 3}
+  - {fileID: 952205376, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -1995293254, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: 1967523173, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: 204244450, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -699550993, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -2022589359, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -1690259456, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -464595988, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -279609933, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: 541350444, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -1885634452, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -548245965, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: 1340280380, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: -636849361, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: 1662103914, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
+  - {fileID: 1246162183, guid: 1fca60491a705ea4d8d82c0d97a2ee98, type: 3}
   dressesIconsBig:
   - {fileID: 21300000, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   - {fileID: 21300002, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
@@ -22057,22 +22057,22 @@ MonoBehaviour:
   - {fileID: 21300028, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   - {fileID: 21300030, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   bootsIcons:
-  - {fileID: 21300030, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300032, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300034, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300036, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300038, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300040, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300042, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300044, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300046, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300048, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300050, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300052, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300054, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300056, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300058, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
-  - {fileID: 21300060, guid: 0f79a56a1ece5b549b2bd2331c968ed1, type: 3}
+  - {fileID: 1444985187, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: 1728632604, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: 736868959, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: 1268803192, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: 1851507866, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: -999167582, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: 1005212334, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: 1925825441, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: -407243620, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: -1632509116, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: -545398101, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: -839953564, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: 1355901208, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: -683028791, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: -18485175, guid: a36f0b01e7085554293769d246857d29, type: 3}
+  - {fileID: 2048454730, guid: a36f0b01e7085554293769d246857d29, type: 3}
   bootsIconsBig:
   - {fileID: 21300032, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   - {fileID: 21300034, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
