@@ -15,9 +15,9 @@ public class RightShopController : MonoBehaviour {
     //[Header("Animator")]
     //public Animator rightMenuAnimator;
     [Header("Buttons right")]
-    public Button upArrow;
+    //public Button upArrow;
     public List<Button> rightMenuButtons;
-    public Button downArrow;
+    //public Button downArrow;
 
     [Header("Icons")]
     public List<Sprite> dollIcon;
@@ -49,8 +49,8 @@ public class RightShopController : MonoBehaviour {
         bootsMenuButton.onClick.AddListener(ButtonBootsMenu);
         bottleMenuButton.onClick.AddListener(ButtonBottleMenu);
 
-        upArrow.onClick.AddListener(PreviousItem);
-        downArrow.onClick.AddListener(NextItem);
+        //upArrow.onClick.AddListener(PreviousItem);
+        //downArrow.onClick.AddListener(NextItem);
 
         dragIcon.SetActive(false);
 

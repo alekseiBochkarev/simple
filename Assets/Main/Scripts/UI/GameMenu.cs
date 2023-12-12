@@ -20,14 +20,14 @@ public class GameMenu : MonoBehaviour {
     public GameObject rouletteScreen;
     public bool isShowLargeBannerToRoulette;
 
-    [Header("Button gallery")]
+    /*[Header("Button gallery")]
     public Button buttonGallery;
     public GameObject galleryScreen;
-    public bool isShowLargeBannerToGallery;
+    public bool isShowLargeBannerToGallery;*/
 
-    [Header("Button photo")]
+    /*[Header("Button photo")]
     public Button buttonPhoto;
-    public Gallery gallery;
+    public Gallery gallery;*/
     public ItemController itemController;
     private RightShopController rightShopController;
     public Animator panelPhoto;
@@ -37,10 +37,10 @@ public class GameMenu : MonoBehaviour {
         buttonShopMenu.onClick.AddListener(ButtonShopMenu);
         buttonMainMenu.onClick.AddListener(ButtonMainMenu);
         buttonRoulette.onClick.AddListener(ButtonRoulette);
-        buttonGallery.onClick.AddListener(ButtonGallery);
-        buttonPhoto.onClick.AddListener(ButtonPhoto);
+       // buttonGallery.onClick.AddListener(ButtonGallery);
+        //buttonPhoto.onClick.AddListener(ButtonPhoto);
 
-        panelPhoto.transform.Find("Close").GetComponent<Button>().onClick.AddListener(() => panelPhoto.SetTrigger("Hide"));
+        //panelPhoto.transform.Find("Close").GetComponent<Button>().onClick.AddListener(() => panelPhoto.SetTrigger("Hide"));
 
         rightShopController = GetComponent<RightShopController>();
     }
@@ -74,14 +74,14 @@ public class GameMenu : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
-    private void ButtonGallery()
+    /*private void ButtonGallery()
     {
         if (isShowLargeBannerToGallery)
             AdsManager.ShowPageBanner();
 
         galleryScreen.SetActive(true);
         gameObject.SetActive(false);
-    }
+    }*/
 
     private void ButtonPhoto()
     {
@@ -91,7 +91,7 @@ public class GameMenu : MonoBehaviour {
         int numBoot = rightShopController.GetNumberSprite(itemController.bootsDollImage.sprite, ItemController.enTypeItem.BOOTS);
         int numBottle = rightShopController.GetNumberSprite(itemController.bottleDollImage.sprite, ItemController.enTypeItem.BOTTLE);
 
-        gallery.AddDollImage(numDoll, numHat, numDress, numBoot, numBottle);
+        //gallery.AddDollImage(numDoll, numHat, numDress, numBoot, numBottle);
         panelPhoto.SetTrigger("Show");
     }
 }
