@@ -3233,8 +3233,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07d5a556e73c29249a674c9a63b1e00d, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4663,8 +4663,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07d5a556e73c29249a674c9a63b1e00d, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8284,8 +8284,6 @@ MonoBehaviour:
   buttonRoulette: {fileID: 1313498330}
   rouletteScreen: {fileID: 654901924}
   isShowLargeBannerToRoulette: 0
-  buttonPhoto: {fileID: 0}
-  gallery: {fileID: 207073454}
   itemController: {fileID: 1113801288}
   panelPhoto: {fileID: 505821282}
 --- !u!1 &648489565
@@ -9486,8 +9484,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07d5a556e73c29249a674c9a63b1e00d, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13481,8 +13479,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300032, guid: 8499c4fd44d980c4db40ee8a2bd76979, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13511,7 +13509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30475d854c516724bb481cc5044d726f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  empty: {fileID: 21300000, guid: 07d5a556e73c29249a674c9a63b1e00d, type: 3}
+  empty: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   dollImage: {fileID: 1113801286}
   hatDollImage: {fileID: 326600274}
   dressDollImage: {fileID: 737057133}
@@ -16680,8 +16678,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07d5a556e73c29249a674c9a63b1e00d, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -22090,13 +22088,23 @@ MonoBehaviour:
   dressesMenuButton: {fileID: 1633547551}
   bootsMenuButton: {fileID: 544595827}
   bottleMenuButton: {fileID: 202619369}
-  upArrow: {fileID: 0}
   rightMenuButtons:
   - {fileID: 401040827}
   - {fileID: 346091030}
   - {fileID: 760126204}
   - {fileID: 1406164704}
-  downArrow: {fileID: 0}
+  - {fileID: 2118731035}
+  - {fileID: 1963661400}
+  - {fileID: 1548484643}
+  - {fileID: 491682399}
+  - {fileID: 136346174}
+  - {fileID: 1886360107}
+  - {fileID: 963124766}
+  - {fileID: 1822993604}
+  - {fileID: 1609274622}
+  - {fileID: 483230339}
+  - {fileID: 406485400}
+  - {fileID: 2026331646}
   dollIcon:
   - {fileID: 931574461, guid: 8499c4fd44d980c4db40ee8a2bd76979, type: 3}
   - {fileID: -1479461810, guid: 8499c4fd44d980c4db40ee8a2bd76979, type: 3}
@@ -22251,7 +22259,7 @@ MonoBehaviour:
   - {fileID: 21300124, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   - {fileID: 21300126, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   dragIcon: {fileID: 1782203245}
-  empty: {fileID: 21300000, guid: 07d5a556e73c29249a674c9a63b1e00d, type: 3}
+  empty: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!114 &1922513003
 MonoBehaviour:
   m_ObjectHideFlags: 0
