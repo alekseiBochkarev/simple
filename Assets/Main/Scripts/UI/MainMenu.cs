@@ -10,20 +10,10 @@ public class MainMenu : MonoBehaviour
     public GameObject shopScreen;
     public GameObject gameScreen;
     public bool isShowLargeBanner;
-
-    [Header("Button Settings")]
-    public Button buttonSettings;
-    public Animator panelSettings;
-    //public string linkPrivacyPolicy = "https://sites.google.com/site/argamesgeneration/";
-    private bool isShowSettings;
-
+    
     private void Start()
     {
         buttonStart.onClick.AddListener(ButtonStart);
-        buttonSettings.onClick.AddListener(ButtonSettings);
-
-        //panelSettings.transform.Find("PrivacyPolicy").GetComponent<Button>().onClick.AddListener(delegate { Application.OpenURL(linkPrivacyPolicy); });
-        panelSettings.transform.Find("Close").GetComponent<Button>().onClick.AddListener(CloseSettingsPanel);
     }
 
     /// <summary>
@@ -45,25 +35,5 @@ public class MainMenu : MonoBehaviour
         }
         gameObject.SetActive(false);
 
-        if (isShowSettings)
-            panelSettings.SetTrigger("Hide");
-    }
-
-    /// <summary>
-    /// Кнопка политика конфиденциальности
-    /// </summary>
-    private void ButtonSettings()
-    {
-        if (isShowSettings)
-            return;
-
-        panelSettings.SetTrigger("Show");
-        isShowSettings = true;
-    }
-
-    private void CloseSettingsPanel()
-    {
-        panelSettings.SetTrigger("Hide");
-        isShowSettings = false;
     }
 }
