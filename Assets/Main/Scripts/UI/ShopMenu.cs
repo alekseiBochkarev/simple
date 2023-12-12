@@ -52,12 +52,12 @@ public class ShopMenu : MonoBehaviour
     private void ButtonMainMenu()
     {
         if (isShowLargeBannerToMainMenu)
-            AdsManager.ShowPageBanner();
+           // AdsManager.ShowPageBanner();
 
         if (ballController.curNumberRemainingBalls == 0)
             HidePanelWarning();
 
-        AdsManager.CloseCurrentPanelQuestion();
+        //AdsManager.CloseCurrentPanelQuestion();
 
         mainMenuScreen.SetActive(true);
         gameObject.SetActive(false);
@@ -66,12 +66,12 @@ public class ShopMenu : MonoBehaviour
     private void ButtonGame()
     {
         if (isShowLargeBannerToGame)
-            AdsManager.ShowPageBanner();
+          //  AdsManager.ShowPageBanner();
 
         if (ballController.curNumberRemainingBalls == 0)
             HidePanelWarning();
 
-        AdsManager.CloseCurrentPanelQuestion();
+       // AdsManager.CloseCurrentPanelQuestion();
 
         gameScreen.SetActive(true);
         gameObject.SetActive(false);
@@ -80,12 +80,12 @@ public class ShopMenu : MonoBehaviour
     private void ButtonRoulette()
     {
         if (isShowLargeBannerToRoulette)
-            AdsManager.ShowPageBanner();
+           // AdsManager.ShowPageBanner();
 
         if (ballController.curNumberRemainingBalls == 0)
             HidePanelWarning();
 
-        AdsManager.CloseCurrentPanelQuestion();
+      //  AdsManager.CloseCurrentPanelQuestion();
 
         rouletteScreen.SetActive(true);
         rouletteScreen.GetComponent<Roulette>().backScreen = gameObject;
@@ -97,7 +97,7 @@ public class ShopMenu : MonoBehaviour
         if (isShowPanelWarning)
             return;
 
-        AdsManager.ShowRewardedVideo(delegate { ballController.AddBall(1); });
+      //  AdsManager.ShowRewardedVideo(delegate { ballController.AddBall(1); });
     }
 
     private void ButtonOk()
