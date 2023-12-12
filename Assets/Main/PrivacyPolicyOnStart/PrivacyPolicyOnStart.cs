@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class PrivacyPolicyOnStart : MonoBehaviour
 {
+    /*
     public string linkPrivacyPolicy;
     public Button buttonPrivacyPolicy;
     public Button buttonAccept;
@@ -27,5 +28,5 @@ public class PrivacyPolicyOnStart : MonoBehaviour
     {
         SaveManager.SetKey("PrivacyPolicyOnStart", 1);
         gameObject.SetActive(false);
-    }
+    }*/
 }
