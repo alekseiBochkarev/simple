@@ -8473,8 +8473,6 @@ MonoBehaviour:
   shopScreen: {fileID: 1425745758}
   gameScreen: {fileID: 1922512996}
   isShowLargeBanner: 0
-  buttonSettings: {fileID: 255201127}
-  panelSettings: {fileID: 2146672508}
 --- !u!114 &752414092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8495,7 +8493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ffc98dd57d58fe47b52839bc9e41551, type: 3}
+  m_Sprite: {fileID: 21300000, guid: da40a27aaaa5c6946800961b131469fe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8550,14 +8548,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toggleSound: {fileID: 1508017978}
   toggleMusic: {fileID: 223644895}
-  buttonFacebook: {fileID: 0}
-  linkFacebook: https://www.facebook.com/flamexteam
-  buttonTwitter: {fileID: 0}
-  linkTwitter: https://twitter.com/FLAMEXTEAM
-  buttonMoreGames: {fileID: 0}
-  linkMoreGames: https://play.google.com/store/apps/developer?id=REDiska
-  buttonPrivacyPolicy: {fileID: 211951170}
-  linkPrivacyPolicy: https://sites.google.com/site/rediskaprivacypolicy/
   lock60fps: 0
 --- !u!1 &760126202
 GameObject:
@@ -15873,7 +15863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ffc98dd57d58fe47b52839bc9e41551, type: 3}
+  m_Sprite: {fileID: 21300000, guid: da40a27aaaa5c6946800961b131469fe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20081,7 +20071,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 92fbf8a2335c4e548ad63786c571f611, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f891fcbb5ee743448852638508ee4bea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
