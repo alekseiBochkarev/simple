@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f78192cec1344d83a177ac5e6139ab3, type: 3}
+  m_Script: {fileID: 0}
   m_Name: Settings
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp:GameAnalyticsSDK.Setup:Settings
   TotalMessagesSubmitted: 0
   TotalMessagesFailed: 0
   DesignMessagesSubmitted: 0
@@ -25,30 +25,25 @@ MonoBehaviour:
   UserMessagesSubmitted: 0
   UserMessagesFailed: 0
   CustomArea: 
-  gameKey:
-  - b5ebff618c585210dfe1feb4f6ef241f
-  secretKey:
-  - fda3323eb6dda1f6ec74b6c6abb39cdfd469f6f6
-  Build:
-  - 1.0
-  SelectedPlatformStudio:
-  - FLAMEX
-  SelectedPlatformGame:
-  - 'Unicorn Surprise: Eggs Dolls'
-  SelectedPlatformGameID: 2d020100
-  SelectedStudio: 01000000
-  SelectedGame: 02000000
+  gameKey: []
+  secretKey: []
+  Build: []
+  SelectedPlatformStudio: []
+  SelectedPlatformGame: []
+  SelectedPlatformGameID: 
+  SelectedStudio: 
+  SelectedGame: 
   NewVersion: 
   Changes: 
-  SignUpOpen: 0
-  StudioName: REDiska
-  GameName: 'Unicorn Surprise: Eggs Dolls'
-  EmailGA: flamexteam@gmail.com
-  IntroScreen: 0
+  SignUpOpen: 1
+  StudioName: 
+  GameName: 
+  EmailGA: 
+  IntroScreen: 1
   InfoLogEditor: 1
   InfoLogBuild: 1
   VerboseLogBuild: 0
-  UseManualSessionHandling: 1
+  UseManualSessionHandling: 0
   SendExampleGameDataToMyGame: 0
   InternetConnectivity: 0
   CustomDimensions01: []
@@ -56,13 +51,13 @@ MonoBehaviour:
   CustomDimensions03: []
   ResourceItemTypes: []
   ResourceCurrencies: []
-  LastCreatedGamePlatform: -1
-  Platforms: 0b000000
-  CurrentInspectorState: 1
+  LastCreatedGamePlatform: 0
+  Platforms: 
+  CurrentInspectorState: 0
   ClosedHints: 
   DisplayHints: 0
   DisplayHintsScrollState: {x: 0, y: 0}
-  Logo: {fileID: 2800000, guid: 98df8f9c5678a4e5d964caa1244e8958, type: 3}
+  Logo: {fileID: 0}
   UpdateIcon: {fileID: 0}
   InfoIcon: {fileID: 0}
   DeleteIcon: {fileID: 0}
@@ -76,7 +71,7 @@ MonoBehaviour:
   iosIcon: {fileID: 0}
   macIcon: {fileID: 0}
   windowsPhoneIcon: {fileID: 0}
-  UsePlayerSettingsBuildNumber: 1
+  UsePlayerSettingsBuildNumber: 0
   SubmitErrors: 1
   MaxErrorCount: 10
   SubmitFpsAverage: 1
@@ -84,7 +79,7 @@ MonoBehaviour:
   IncludeGooglePlay: 1
   FpsCriticalThreshold: 20
   FpsCirticalSubmitInterval: 1
-  PlatformFoldOut: 01
+  PlatformFoldOut: 
   CustomDimensions01FoldOut: 0
   CustomDimensions02FoldOut: 0
   CustomDimensions03FoldOut: 0

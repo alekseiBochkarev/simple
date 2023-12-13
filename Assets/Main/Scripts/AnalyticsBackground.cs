@@ -6,6 +6,6 @@ public class AnalyticsBackground : MonoBehaviour
 {
     private void Start()
     {
-        GameAnalyticsSDK.GameAnalytics.Initialize();
+       // GameAnalyticsSDK.GameAnalytics.Initialize();
     }
 }
