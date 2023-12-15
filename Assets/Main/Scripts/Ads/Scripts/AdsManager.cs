@@ -59,7 +59,7 @@ public class AdsManager : Singleton<AdsManager>
 
     private void ShowPageBannerLocal()
     {
-        AdmobBackground.Instance.ShowPageAds();
+       // AdmobBackground.Instance.ShowPageAds();
     }
 
     private void ButtonAdsOk(Action _funcAfterVideo)
@@ -75,13 +75,13 @@ public class AdsManager : Singleton<AdsManager>
         return;
 #endif
 
-        AdmobBackground.Instance.RewardEventRewarded.RemoveAllListeners();
+      //  AdmobBackground.Instance.RewardEventRewarded.RemoveAllListeners();
         //AdmobBackground.Instance.RewardedVideoSkipped.RemoveAllListeners();
 
-        AdmobBackground.Instance.RewardEventRewarded.AddListener(delegate { OnVideoFinished(_funcAfterVideo); });
+      //  AdmobBackground.Instance.RewardEventRewarded.AddListener(delegate { OnVideoFinished(_funcAfterVideo); });
         //AdmobBackground.Instance.RewardedVideoSkipped.AddListener(delegate { OnVideoNoFinished(); });
 
-        AdmobBackground.Instance.ShowRewardedAds();
+      //  AdmobBackground.Instance.ShowRewardedAds();
 
         if (isShowPanelLoad)
         {
@@ -194,7 +194,8 @@ public class AdsManager : Singleton<AdsManager>
     /// </summary>
     public static bool IsReadyRewardedVideo()
     {
-        return AdmobBackground.Instance.IsReadyRewardedAds();
+        // return AdmobBackground.Instance.IsReadyRewardedAds();
+        return true;
     }
 
     /// <summary>
@@ -220,7 +221,8 @@ public class AdsManager : Singleton<AdsManager>
     /// </summary>
     public static bool IsReadyPageBanner()
     {
-        return AdmobBackground.Instance.IsReadyPageAds();
+        //  return AdmobBackground.Instance.IsReadyPageAds();
+        return true;
     }
 
     /// <summary>
