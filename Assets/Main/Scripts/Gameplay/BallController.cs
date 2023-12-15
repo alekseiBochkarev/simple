@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Beebyte.Obfuscator;
+
 using UnityEngine.Events;
 
 public class BallController : Singleton<BallController>
@@ -106,7 +106,6 @@ public class BallController : Singleton<BallController>
         }
     }
 
-    [Skip]
     public void NextState()
     {
         switch(currentNumberState)
@@ -324,7 +323,6 @@ public class BallController : Singleton<BallController>
         return shopController.dollIcon[randomNumber];
     }
 
-    [Skip]
     public void ClickOnNewItem()
     {
         rays.SetActive(false);

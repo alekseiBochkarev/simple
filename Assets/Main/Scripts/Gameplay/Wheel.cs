@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Beebyte.Obfuscator;
+
 
 public class Wheel : MonoBehaviour
 {
@@ -130,7 +130,6 @@ public class Wheel : MonoBehaviour
         iconOpenCharacter.SetBool("isShow", true);
     }
 
-    [Skip]
     public void ClickOnNewItem()
     {
         rays.SetActive(false);
