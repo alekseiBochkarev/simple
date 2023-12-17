@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using YG;
 
 public class AdsManager : Singleton<AdsManager>
 {
+    public YandexGame sdk;
+
     public bool isShowPanelQuestion;
     public Animator panelQuestionRewardsAds;
 
@@ -25,6 +28,8 @@ public class AdsManager : Singleton<AdsManager>
     private bool isShowQuestion = false;
 
     private int countPageAds = 0;
+
+    private void OnEnable() => YandexGame.RewardVideoEvent += Rewarded;
 
     private void ShowRewardedVideoLocal(Action _funcAfterVideo, Action _funcButtonNo = null, Action _funcClosePanelLoad = null, bool rewardIsCharge = false)
     {
@@ -75,14 +80,14 @@ public class AdsManager : Singleton<AdsManager>
         return;
 #endif
 
-      //  AdmobBackground.Instance.RewardEventRewarded.RemoveAllListeners();
+        //  AdmobBackground.Instance.RewardEventRewarded.RemoveAllListeners();
         //AdmobBackground.Instance.RewardedVideoSkipped.RemoveAllListeners();
 
-      //  AdmobBackground.Instance.RewardEventRewarded.AddListener(delegate { OnVideoFinished(_funcAfterVideo); });
+        //  AdmobBackground.Instance.RewardEventRewarded.AddListener(delegate { OnVideoFinished(_funcAfterVideo); });
         //AdmobBackground.Instance.RewardedVideoSkipped.AddListener(delegate { OnVideoNoFinished(); });
 
-      //  AdmobBackground.Instance.ShowRewardedAds();
-
+        //  AdmobBackground.Instance.ShowRewardedAds();
+        sdk._RewardedShow(1);
         if (isShowPanelLoad)
         {
             ShowPanel(panelLoad);
@@ -114,6 +119,17 @@ public class AdsManager : Singleton<AdsManager>
             ShowPanel(panelFinish);
 
         if (_funcAfterVideo != null)
+            _funcAfterVideo.Invoke();
+    }
+
+    void Rewarded(int id)
+    {
+        // Если ID = 1, то выдаём "+100 монет"
+        if (id == 1)
+            _funcAfterVideo.Invoke();
+
+        // Если ID = 2, то выдаём "+оружие".
+        else if (id == 2)
             _funcAfterVideo.Invoke();
     }
 
