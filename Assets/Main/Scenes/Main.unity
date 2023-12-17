@@ -685,8 +685,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35, y: -308}
-  m_SizeDelta: {x: 364, y: 167}
+  m_AnchoredPosition: {x: -1.9188, y: -57.0478}
+  m_SizeDelta: {x: 538.8576, y: 382.6164}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &125284936
 MonoBehaviour:
@@ -2033,8 +2033,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -156, y: 80.8}
-  m_SizeDelta: {x: 213, y: 237}
+  m_AnchoredPosition: {x: 2.317, y: 5.186}
+  m_SizeDelta: {x: 529.6339, y: 1097.1101}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &209715475
 MonoBehaviour:
@@ -5978,7 +5978,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -171057792, guid: 22f7da6edac97ff4d98d635f11acb336, type: 3}
+  m_Sprite: {fileID: -1544083720, guid: 22f7da6edac97ff4d98d635f11acb336, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9295,8 +9295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: -125}
-  m_SizeDelta: {x: 270, y: 164}
+  m_AnchoredPosition: {x: -24.1245, y: 362.2264}
+  m_SizeDelta: {x: 399.7019, y: 375.743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &835582279
 MonoBehaviour:
@@ -17647,7 +17647,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1544083720, guid: 22f7da6edac97ff4d98d635f11acb336, type: 3}
+  m_Sprite: {fileID: -171057792, guid: 22f7da6edac97ff4d98d635f11acb336, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19886,22 +19886,22 @@ MonoBehaviour:
   - {fileID: 21300092, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   - {fileID: 21300094, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   dressesIcons:
-  - {fileID: -532432948, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: 1076661666, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -907757740, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -488526348, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -1254237525, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -155764944, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -400635682, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -447997681, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: 702356718, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -513610784, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: 293105859, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -1094638968, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -345634198, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: 1045908001, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -2068312742, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
-  - {fileID: -1801417790, guid: 6fb9e744062938a469b1df7f177bf302, type: 3}
+  - {fileID: 51356088, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: -385625703, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: -815353353, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: 1722204626, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: -770722593, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: -1751091642, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: 236524814, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: -333913717, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: 49785839, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: 724305631, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: -870501016, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: -196417842, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: 1149725935, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: -1921398770, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: 894003646, guid: 85974314c4d2c374dac604447c55d292, type: 3}
+  - {fileID: 1788937842, guid: 85974314c4d2c374dac604447c55d292, type: 3}
   dressesIconsBig:
   - {fileID: 21300000, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
   - {fileID: 21300002, guid: 05451d167fdeb2944820de15318a36b7, type: 3}
@@ -21555,8 +21555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: -466}
-  m_SizeDelta: {x: 236, y: 113}
+  m_AnchoredPosition: {x: 42.492622, y: -419.04416}
+  m_SizeDelta: {x: 349.3693, y: 258.8962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2091514233
 MonoBehaviour:
