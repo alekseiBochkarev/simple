@@ -29,8 +29,6 @@ public class AdsManager : Singleton<AdsManager>
 
     private int countPageAds = 0;
 
-    private void OnEnable() => YandexGame.RewardVideoEvent += Rewarded;
-
     private void ShowRewardedVideoLocal(Action _funcAfterVideo, Action _funcButtonNo = null, Action _funcClosePanelLoad = null, bool rewardIsCharge = false)
     {
         /*if (rewardIsCharge)
@@ -88,6 +86,7 @@ public class AdsManager : Singleton<AdsManager>
 
         //  AdmobBackground.Instance.ShowRewardedAds();
         sdk._RewardedShow(1);
+        _funcAfterVideo.Invoke();
         if (isShowPanelLoad)
         {
             ShowPanel(panelLoad);
@@ -119,17 +118,6 @@ public class AdsManager : Singleton<AdsManager>
             ShowPanel(panelFinish);
 
         if (_funcAfterVideo != null)
-            _funcAfterVideo.Invoke();
-    }
-
-    void Rewarded(int id)
-    {
-        // Если ID = 1, то выдаём "+100 монет"
-        if (id == 1)
-            _funcAfterVideo.Invoke();
-
-        // Если ID = 2, то выдаём "+оружие".
-        else if (id == 2)
             _funcAfterVideo.Invoke();
     }
 
